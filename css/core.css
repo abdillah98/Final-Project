@@ -1,0 +1,55 @@
+body {
+	font-family: "Google Sans",Arial,Helvetica,sans-serif;
+	color: #3c4043;
+	font-size: .875rem;
+	letter-spacing: .01562rem;
+	line-height: 1.375rem;
+}
+
+.box-login {
+	position: absolute;
+	background-color: #fff;
+	width: 250px;
+	/*height: 400px;*/
+	top: 50px;
+	right: 50px;
+	border-radius: 5px;
+	padding: 15px;
+	z-index: 1010;
+}
+
+input::placeholder {
+	color: #7f868c !important;
+	font-size: .875rem;
+}
+
+.carousel-caption {
+	top: 120px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.box-shadow:hover {
+	box-shadow: 1px 1px 4px 1px #eee;
+}
+
+.line-title {
+	height: 3px;
+	width: 40px;
+	margin-bottom: 15px;
+}
+
+.modal-img {
+	-moz-transition: transform .2s; /* Animation */
+	-webkit-transition: transform .2s; /* Animation */
+	transition: transform .2s; /* Animation */
+}
+.modal-img:hover {
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
